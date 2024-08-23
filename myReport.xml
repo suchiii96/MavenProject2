@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.276" tests="3" skipped="0" failures="0" errors="0">
+<testcase classname="LogOut Functionality" name="Verify that users can log out of their accounts successfully" time="0.04">
+<system-out><![CDATA[
+When Enter the valid email "testautomation063@gmail.com"....................passed
+When Enter the valid password "test@6789"...................................passed
+When click on login.........................................................passed
+When Click on My account....................................................passed
+Then Click on Logout........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search and Discovery  Functionality" name="Verify that users can search for other users by name or email." time="0.007">
+<system-out><![CDATA[
+When Enter the valid email "testautomation063@gmail.com"....................passed
+When Enter the valid password "test@6789"...................................passed
+When click on login.........................................................passed
+When search a user name.....................................................passed
+Then verify user can view others profile....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search and Discovery  Functionality" name="Verify that users can discover and connect with other users through friend suggestions." time="0.008">
+<system-out><![CDATA[
+When Enter the valid email "testautomation063@gmail.com"....................passed
+When Enter the valid password "test@6789"...................................passed
+When click on login.........................................................passed
+When Click on find Friends..................................................passed
+When Click on suggestions...................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
